@@ -1,0 +1,36 @@
+.container-styles{
+	position: relative; 
+  top: 75px;
+  left: 100px;
+	width:50%
+}
+
+.padding{
+  padding-bottom:0px;
+  margin-bottom:0px;
+}
+
+.error{
+    color: red;
+    position:relative;
+    left:50px;
+}
+
+.bg-custom{
+	background-color: rgb(70, 88, 248)
+}
+
+.header{
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.label{
+  font-size: medium;
+  font-weight: 500;
+}
+
+.button{
+  margin-left: 5px;
+  margin-right: 5px;
+}

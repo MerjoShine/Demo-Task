@@ -1,0 +1,25 @@
+<div>
+	<nav class="navbar navbar-expand-sm bg-light navbar-light">
+		<div class='container-fluid'>
+			<ul class="navbar-nav">
+				<li class="nav-item"><a href="#" class="navbar-brand title" title="Demo Task">{{pageTitle}}</a></li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right" *ngIf="user">
+				<li>
+					<div class="text-right welcome">
+						Welcome {{userName | titlecase}}</div>
+				</li>
+				<li class="divider-vertical"></li>
+				<li>
+					<div class="logout">
+						<a id="logout" class="btn btn-dark" (click)="logout()">{{logoutTitle}}</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<router-outlet></router-outlet>
+
+</div>

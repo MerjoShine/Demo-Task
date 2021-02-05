@@ -1,0 +1,26 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 85px;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.welcome {
+    font-size: large;
+    padding: 0px;
+    position: relative;
+    top: 8px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.logout {
+    padding-right: 15px;
+}
